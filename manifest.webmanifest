@@ -8,18 +8,18 @@
     "background_color": "#fff",
     "icons": [
         {
-        "src": "icons/icon64.png",
+        "src": "icon64.png",
         "sizes": "64x64",
         "type": "image/png"
         },
         {
-            "src": "icons/icon96.png",
+            "src": "icon96.png",
             "sizes": "96x96",
             "type": "image/png"
         },
         {
-            "src": "icons/icon512.png",
-            "sizes": "512x512",
+            "src": "icon144.png",
+            "sizes": "144x144",
             "type": "image/png"
         }
     ]
