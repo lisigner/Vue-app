@@ -9,6 +9,7 @@ var appShellFiles = [
   '/Vue-app/repeat.png',
   '/Vue-app/icon96.png',
   '/Vue-app/icon64.png',
+  '/Vue-app/icon512.png',
 ];
 
 // Installing Service Worker
