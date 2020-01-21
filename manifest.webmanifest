@@ -2,7 +2,7 @@
     "name": "Todo Vue App",
     "short_name": "ToDo",
     "description": "Progressive Web App creates a todo list",
-    "start_url": "D:/GitHub/Vue-app/index.html",
+    "start_url": "Vue-app/index.html",
     "display": "fullscreen",
     "theme_color": "#42b983",
     "background_color": "#fff",
