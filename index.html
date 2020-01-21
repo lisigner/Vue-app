@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+<main id="app">
+    <form @submit.prevent="addTask">
+    <h3>{{title}}</h3>
+    <label for="newTask">New Task</label>
+    <input v-model="newTask" type="text" name="newTask" id="newTask">
+    <button type="submit" name="button">Add Task</button>
+    </form>
+    <ul>
+        <li>Sleep <img src="sleep.png"> </li>
+        <li>Eat <img src="repeat.png"> </li>
+        <li>Repeat <img src="eat.png"> </li>
+        <li v-for="task in tasks">{{task.title}}</li>
+    </ul>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
