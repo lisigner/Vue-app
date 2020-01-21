@@ -9,7 +9,7 @@ var appShellFiles = [
   '/Vue-app/repeat.png',
   '/Vue-app/icon96.png',
   '/Vue-app/icon64.png',
-  '/Vue-app/icon512.png',
+  '/Vue-app/icon144.png',
 ];
 
 // Installing Service Worker
@@ -23,18 +23,6 @@ self.addEventListener('install', function(e) {
     );
   });
 
-  // Activate service worker on update
-self.addEventListener('activate', (e) => {
-    e.waitUntil(
-      caches.keys().then((keyList) => {
-            return Promise.all(keyList.map((key) => {
-          if(key !== cacheName) {
-            return caches.delete(key);
-          }
-        }));
-      })
-    );
-  });
   
   // Fetching content using Service Worker
   self.addEventListener('fetch', function(e) {
