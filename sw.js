@@ -7,6 +7,8 @@ var appShellFiles = [
   '/Vue-app/sleep.png',
   '/Vue-app/eat.png',
   '/Vue-app/repeat.png',
+  '/Vue-app/shower.png',
+  '/Vue-app/work.png',
   '/Vue-app/icon96.png',
   '/Vue-app/icon64.png',
   '/Vue-app/icon144.png',
